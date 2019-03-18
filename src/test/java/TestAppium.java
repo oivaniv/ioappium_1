@@ -25,7 +25,7 @@ public class TestAppium {
         caps.setCapability("platformVersion", "6.0.1");
         caps.setCapability("appPackage", "com.cardo.smartset");
         caps.setCapability("appActivity", "com.cardo.smartset.ui.activities.PrivacyPolicyActivity");
-        caps.setCapability("noReset", true);
+        caps.setCapability("noReset", false);
         driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), caps);
         wait = new WebDriverWait(driver, 10);
     }
