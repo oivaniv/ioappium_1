@@ -19,10 +19,10 @@ public class TestAppium {
     @BeforeMethod
     public void setup() throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("deviceName", "Nexus 5X API 28 x86");
-        caps.setCapability("udid", "emulator-5554");
+        caps.setCapability("deviceName", "Nexus 5");
+        caps.setCapability("udid", "03787176d024355e");
         caps.setCapability("platformName", "Android");
-        caps.setCapability("platformVersion", "9.0");
+        caps.setCapability("platformVersion", "6.0.1");
         caps.setCapability("appPackage", "com.cardo.smartset");
         caps.setCapability("appActivity", "com.cardo.smartset.ui.activities.PrivacyPolicyActivity");
         caps.setCapability("noReset", false);
